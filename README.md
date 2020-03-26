@@ -3,7 +3,7 @@ This Python script takes data as a list and produces a scatter plot with customi
 
 Note: This script only runs on Python 3.
 
-Dependencies:
+### Dependencies:
 - [matplotlib](https://matplotlib.org/)
 - [numpy](https://numpy.org/)
 - [scipy](https://www.scipy.org/)
