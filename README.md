@@ -8,3 +8,8 @@ Dependencies:
 - [numpy](https://numpy.org/)
 - [scipy](https://www.scipy.org/)
 - [statsmodels](https://www.statsmodels.org/stable/index.html)
+
+The data in the code produces the following plot:
+![plot](https://github.com/AKstudios/python-scatter-plot-ci/blob/master/tout_vs_radon_pid_red.png)
+
+The data can be manipulated to add any custom data to plot, including more data series and their customizations.
