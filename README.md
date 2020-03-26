@@ -12,4 +12,4 @@ Note: This script only runs on Python 3.
 The data in the code produces the following plot:
 ![plot](https://github.com/AKstudios/python-scatter-plot-ci/blob/master/tout_vs_radon_pid_red.png)
 
-The data can be manipulated to add any custom data to plot, including more data series and their customizations.
+The script can be manipulated to add any custom data to plot (as long as the two lists are the same size), including additional data series and their customizations if needed.
