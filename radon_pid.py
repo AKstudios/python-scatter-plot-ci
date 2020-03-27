@@ -45,6 +45,7 @@ plt.rcParams.update({'font.family': 'Arial', 'font.size':12})
 
 # set axis minor tick marks
 plt.axes().yaxis.set_minor_locator(mtick.MultipleLocator(4))
+plt.axes().xaxis.set_major_locator(mtick.MultipleLocator(10))
 plt.axes().xaxis.set_minor_locator(mtick.MultipleLocator(2))
 plt.axes().yaxis.set_major_formatter(mtick.FormatStrFormatter('%.0f%%'))
 
@@ -71,7 +72,7 @@ for n, (i,j) in enumerate(zip(a,b)):
 
     # set axis ranges
     plt.ylim(0, 100)
-    plt.xlim(-30, 20)
+    plt.xlim(-20, 20)
 
     # perform regressions
     z = numpy.polyfit(x, y, 1)
